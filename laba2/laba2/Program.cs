@@ -6,6 +6,7 @@ namespace Menu
         static void Main(string[] args)
         {
 
+
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
@@ -24,6 +25,7 @@ namespace Menu
             Console.WriteLine("(+)");
             Console.WriteLine("(-)");
             Console.WriteLine("(*)");
+            Console.WriteLine("(/)");
             c = Convert.ToChar(Console.ReadLine());
             if (c == '+')
             {
@@ -56,6 +58,22 @@ namespace Menu
             {
                 d = a * b;
                 Console.WriteLine("Результат: " + d);
+            }
+         
+            
+          
+          
+   
+            
+        
+            if (c =='/')
+            {
+                d = a / b;
+                Console.WriteLine("Результат: " + d);
+                if (b == 0)
+                {
+                    Console.WriteLine("Ошибка");
+                }
             }
 
         }
