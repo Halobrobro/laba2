@@ -5,12 +5,19 @@ namespace Menu
     {
         static void Main(string[] args)
         {
-
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
             
           
+
+            double b;
+            
+            Console.WriteLine("Введите B: ");
+            b = Convert.ToDouble(Console.ReadLine());
+            
+           
+
         }
     }
 }
