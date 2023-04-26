@@ -33,39 +33,16 @@ namespace Menu
                 Console.WriteLine("результат: " + d);
 
             }
-
-
-            
-           
-           
-            
             if(c =='-')
             {
                 d = a - b;
                 Console.WriteLine("Результат: " + d);
             }
-
-            
-     
-            
-
-            
-            
-            
-           
-
             if (c =='*')
             {
                 d = a * b;
                 Console.WriteLine("Результат: " + d);
             }
-         
-            
-          
-          
-   
-            
-        
             if (c =='/')
             {
                 d = a / b;
